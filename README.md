@@ -13,28 +13,28 @@ whose valid transactions are flagged—a cost your client values at $8.
 
 
 ## Fraud Data Description - information about the first transaction of each user.
-Columns:
+**Columns:**
 
-• user_id : Id of the user. Unique by user.
+**• user_id** : Id of the user. Unique by user.
 
-• signup_time : the time when the user created her account (GMT time).
+**• signup_time** : the time when the user created her account (GMT time).
 
-• purchase_time : the time when the user bought the item (GMT time).
+**• purchase_time** : the time when the user bought the item (GMT time).
 
-• purchase_value : the cost of the item purchased (USD).
+**• purchase_value** : the cost of the item purchased (USD).
 
-• device_id : the device id. You can assume that it is unique by device. I.e., 2 transactions with the same device ID means that the same physical device was used to buy
+**• device_id** : the device id. You can assume that it is unique by device. I.e., 2 transactions with the same device ID means that the same physical device was used to buy.
 
-• source : user marketing channel: ads, SEO, Direct (i.e. came to the site by directly typing the site address on the browser).
+**• source** : user marketing channel: ads, SEO, Direct (i.e. came to the site by directly typing the site address on the browser).
 
-• browser : the browser used by the user.
+**• browser** : the browser used by the user.
 
-• sex : user sex: Male/Female 
+**• sex** : Male/Female. 
 
-• age : user age
+**• age** : user age.
 
-• ip_address : user numeric ip address.
+**• ip_address** : user numeric ip address.
 
-• class : this is what we are trying to predict: whether the activity was fraudulent (1) or not (0).
+**• class** : this is what we are trying to predict: whether the activity was fraudulent (1) or not (0).
 
-• country : country of IP address.
+**• country** : country of IP address.
